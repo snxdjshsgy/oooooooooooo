@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Jogos Demo de Cassino</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .game {
+      background-color: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.2s;
+      cursor: pointer;
+    }
+
+    .game:hover {
+      transform: scale(1.05);
+    }
+
+    .game img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎰 Escolha seu jogo demo</h1>
+
+  <div class="grid">
+
+    <!-- JOGO 1 -->
+    <a class="game" href="https://demofortunetiger.com/" target="_blank">
+      <img src="https://exemplo.com/fortune-tiger.jpg" alt="Fortune Tiger">
+    </a>
+
+    <!-- JOGO 2 -->
+    <a class="game" href="https://demo.sweetbonanza.com/" target="_blank">
+      <img src="https://exemplo.com/sweet-bonanza.jpg" alt="Sweet Bonanza">
+    </a>
+
+    <!-- JOGO 3 (Exemplo) -->
+    <a class="game" href="https://link-do-jogo-demo.com/" target="_blank">
+      <img src="https://link-da-imagem.com/jogo.jpg" alt="Nome do Jogo">
+    </a>
+
+    <!-- Adicione mais blocos assim ↑ copiando e colando -->
+
+  </div>
+
+</body>
+</html>
